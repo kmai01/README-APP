@@ -1,1 +1,1 @@
-# README-APP
+{"title":"readme","description":"readme des","installation":"inquirer","usage":"create","license":"none","contributing":"me","test":"test","github":"kmai01"}
