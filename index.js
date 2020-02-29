@@ -56,7 +56,9 @@ function promptUser() {
 promptUser()
   .then(function(answers) {
    console.log(answers.title);
-  return writeFileAsync("README.md", "# "+answers.title+"\n"+"## Description"+"\n"+ "*"+answers.description+"\n");
+  return writeFileAsync("README.md", "# "+answers.title+"\n"+"## Description"+"\n"+ "* "+answers.description+"\n"+"## Installation" +"\n"+ "* " + answers.installation
+                        +"\n"+ "## Usage"+ "\n"+ "* " + answers.usage + "\n"+"## License" + "\n"+ "* " + answers.license +"\n"+"## Contributing" + "\n"+ "* " + answers.contributing +"\n"
+                        +"## Testing" + "\n"+ "* " + answers.test +"\n");
  
    })
   .then(function() {
