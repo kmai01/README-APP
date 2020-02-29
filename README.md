@@ -1,13 +1,14 @@
-# Good Readme App
+https://img.shields.io/badge/-Version%201.0.0-blue
+# Good Readme 
 ## Description
-* This app will create readme file
+* preoject
 ## Installation
-* Need to install inquirer
+* install
 ## Usage
-* Use to create read me file
+* usage
 ## License
-* any one free to use
+* none
 ## Contributing
-* Khanh
+* me
 ## Testing
-* push to github and exams read me file
+* testing
