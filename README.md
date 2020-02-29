@@ -1,8 +1,8 @@
-# prog
+# project
 ## Description
-description
+des
 ## Installation
-insta
+install
 ## Usage
 NaN
 ## License
@@ -10,7 +10,7 @@ info
 ## Contributing
 me
 ## Testing
-test
+testing
 ## Question
-! [] (<img src=https://avatars3.githubusercontent.com/u/57655821?v=4/>)
+<img src=https://avatars3.githubusercontent.com/u/57655821?v=4/>
 null

@@ -91,7 +91,7 @@ promptUser()
       
        var avatar = res.data.avatar_url
        var email = res.data.email
-       return appendFileAsync("README.md", "## Question" + "\n"+ "! [] (<img src="+avatar+"/>)"+"\n"+ email)
+       return appendFileAsync("README.md", "## Question" + "\n"+ "<img src="+avatar+"/>"+"\n"+ email)
        
       });
 
