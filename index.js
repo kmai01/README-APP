@@ -1,8 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+// const axios = require("axios");
 
 const writeFileAsync = util.promisify(fs.writeFile);
+const appendFileAsync = util.promisify(fs.appendFile);
 
 function promptUser() {
   return inquirer.prompt([
@@ -47,21 +49,33 @@ function promptUser() {
       message: "Enter your GitHub Username"
     },
     
+    
   ]);
+  
 }
+
+
+
 
 promptUser()
   .then(function(answers) {
-    const readmetext= JSON.stringify(answers);
-   
-return writeFileAsync("README.md", readmetext);
-  })
+   console.log(answers.title);
+  return writeFileAsync("README.md", answers.title+"\n"+answers.description+"\n");
+ 
+   })
   .then(function() {
-    console.log("Successfully wrote to README.md");
+    console.log("Successfully wrote to Readme.md");
   })
   .catch(function(err) {
     console.log(err);
   });
+
+  
+
+
+  
+
+  
 
 
 
