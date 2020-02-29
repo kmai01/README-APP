@@ -43,11 +43,7 @@ function promptUser() {
         name: "test",
         message: "Enter the testing method"
       },
-    {
-      type: "input",
-      name: "github",
-      message: "Enter your GitHub Username"
-    },
+    
     
     
   ]);
@@ -60,7 +56,7 @@ function promptUser() {
 promptUser()
   .then(function(answers) {
    console.log(answers.title);
-  return writeFileAsync("README.md", answers.title+"\n"+answers.description+"\n");
+  return writeFileAsync("README.md", "# "+answers.title+"\n"+"## Description"+"\n"+ "*"+answers.description+"\n");
  
    })
   .then(function() {
