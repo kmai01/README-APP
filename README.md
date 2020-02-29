@@ -1,13 +1,13 @@
 # Good Readme App
 ## Description
-* This app will create a readme file for git hub
+* This app will create readme file
 ## Installation
 * Need to install inquirer
 ## Usage
-* use by anyone
+* Use to create read me file
 ## License
-* none
+* any one free to use
 ## Contributing
 * Khanh
 ## Testing
-* push to github and look at readme
+* push to github and exams read me file
