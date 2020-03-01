@@ -63,7 +63,7 @@ promptUser()
    console.log(answers.title);
    console.log(answers.username);
    writeFileAsync("README.md", "# "+answers.title+"\n"+"## Description"+"\n"+answers.description+"\n"+"## Installation" +"\n"+ answers.installation
-                        +"\n"+ "## Usage"+ "\n"+ + answers.usage + "\n"+"## License" + "\n"+ answers.license +"\n"+"## Contributing" + "\n"+ answers.contributing +"\n"
+                        +"\n"+ "## Usage"+ "\n"+answers.usage + "\n"+"## License" + "\n"+ answers.license +"\n"+"## Contributing" + "\n"+ answers.contributing +"\n"
                         +"## Testing" + "\n"+answers.test +"\n");
                         return answers
    

@@ -1,16 +1,16 @@
 # Read Me App
 ## Description
-App create read me file based info enter.
+Create readme app based user input.
 ## Installation
-Install inquirer and axios is required.
+Need to npm install inquirer and axios.
 ## Usage
-NaN
+To create readme file.
 ## License
 none
 ## Contributing
 Khanh
 ## Testing
-Enter node index.js, enter info ,push readme to github, check on github.
+Node index,js, push read me to github and check on github
 ## Question
 ![](https://avatars3.githubusercontent.com/u/57655821?v=4)
 null
