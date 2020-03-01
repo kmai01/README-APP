@@ -1,17 +1,17 @@
 ![](https://img.shields.io/badge/-version%201.0-blue)
-# Readme app
+# Read Me App
 ## Description
-des
+Create read me file with user input.
 ## Installation
-install
+Install npm inquirer and axios.
 ## Usage
-use
+Create read me file.
 ## License
-inof
+free for all
 ## Contributing
-me
+Khanh
 ## Testing
-testing
+Push to git hub and check on git hub.
 ## Question
 ![](https://avatars3.githubusercontent.com/u/57655821?v=4)
 null
