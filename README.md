@@ -1,16 +1,16 @@
-# project
+# Read Me App
 ## Description
-des
+App create read me file based info enter.
 ## Installation
-install
+Install inquirer and axios is required.
 ## Usage
 NaN
 ## License
-info
+none
 ## Contributing
-me
+Khanh
 ## Testing
-testing
+Enter node index.js, enter info ,push readme to github, check on github.
 ## Question
 ![](https://avatars3.githubusercontent.com/u/57655821?v=4)
 null
