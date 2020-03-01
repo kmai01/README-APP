@@ -1,16 +1,17 @@
-# Read Me App
+![](https://img.shields.io/badge/-version%201.0-blue)
+# Readme app
 ## Description
-Create readme app based user input.
+des
 ## Installation
-Need to npm install inquirer and axios.
+install
 ## Usage
-To create readme file.
+use
 ## License
-none
+inof
 ## Contributing
-Khanh
+me
 ## Testing
-Node index,js, push read me to github and check on github
+testing
 ## Question
 ![](https://avatars3.githubusercontent.com/u/57655821?v=4)
 null
